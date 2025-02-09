@@ -1,7 +1,9 @@
-Class Ventas
+Este código es una aplicación simple para gestionar las ventas de tres departamentos a lo largo de un año. Permite al usuario agregar, buscar y eliminar ventas, todo organizado en una tabla
+
+      Class Ventas
 Este código define una clase que ayuda a crear objetos con ciertas caracteristicas y funcionamientos
 
-  def __init__(self):
+         def __init__(self):
   
         self.departamentos = [[0] * 12 for _ in range(3)]
         self.nombres_departamentos = ["ropa", "deportes", "jugueteria"]
